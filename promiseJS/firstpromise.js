@@ -1,6 +1,6 @@
 const fetchuser = (uid) => {
     return new Promise((resolve, reject) => {
-        const isconnected = true;
+        const isconnected = false;
 
         setTimeout(() => {
             if (isconnected) {
